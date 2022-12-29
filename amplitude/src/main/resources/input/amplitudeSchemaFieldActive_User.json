@@ -1,0 +1,26 @@
+{
+  "schemaFields": [
+    {
+      "coreType": "string",
+      "systemType": "string",
+      "fieldName": "date",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": false,
+      "isRepeated": false,
+      "isPrimary": true,
+      "isUnique": false
+    },
+    {
+      "coreType": "string",
+      "systemType": "object",
+      "fieldName": "statistics",
+      "subfields": [],
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    }
+  ]
+}

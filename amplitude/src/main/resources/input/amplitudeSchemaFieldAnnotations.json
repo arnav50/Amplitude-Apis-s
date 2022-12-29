@@ -1,0 +1,48 @@
+{
+  "schemaFields": [
+    {
+      "coreType": "string",
+      "systemType": "string",
+      "fieldName": "date",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "string",
+      "systemType": "string",
+      "fieldName": "details",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "int64",
+      "systemType": "integer",
+      "fieldName": "id",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": false,
+      "isRepeated": false,
+      "isPrimary": true,
+      "isUnique": false
+    },
+    {
+      "coreType": "string",
+      "systemType": "string",
+      "fieldName": "label",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    }
+  ]
+}

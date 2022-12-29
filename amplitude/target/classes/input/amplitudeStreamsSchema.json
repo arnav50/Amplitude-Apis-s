@@ -1,0 +1,24 @@
+{
+	"streams": [
+		{
+			"id": "active_users_counts",
+			"description": "active_users_counts"
+		},
+		{
+			"id": "annotations",
+			"description": "annotations"
+		},
+		{
+			"id": "average_session_length",
+			"description": "average_session_length"
+		},
+		{
+			"id": "cohorts",
+			"description": "cohorts"
+		},
+		{
+			"id": "events",
+			"description": "events"
+		}
+	]
+}

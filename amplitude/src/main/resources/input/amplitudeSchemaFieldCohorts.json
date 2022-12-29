@@ -1,0 +1,180 @@
+{
+  "schemaFields": [
+    {
+      "coreType": "bool",
+      "systemType": "boolean",
+      "fieldName": "hidden",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "string",
+      "systemType": "string",
+      "fieldName": "description",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "bool",
+      "systemType": "boolean",
+      "fieldName": "finished",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "string",
+      "systemType": "array",
+      "fieldName": "owners",
+      "subfields": [],
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": true,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "bool",
+      "systemType": "boolean",
+      "fieldName": "published",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "string",
+      "systemType": "string",
+      "fieldName": "type",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "bool",
+      "systemType": "boolean",
+      "fieldName": "is_official_content",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "bool",
+      "systemType": "boolean",
+      "fieldName": "archived",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "int64",
+      "systemType": "integer",
+      "fieldName": "size",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "bool",
+      "systemType": "boolean",
+      "fieldName": "is_predictive",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "int64",
+      "systemType": "integer",
+      "fieldName": "appId",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "string",
+      "systemType": "string",
+      "fieldName": "name",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "string",
+      "systemType": "object",
+      "fieldName": "definition",
+      "subfields": [],
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "string",
+      "systemType": "string",
+      "fieldName": "id",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": false,
+      "isRepeated": false,
+      "isPrimary": true,
+      "isUnique": false
+    },
+    {
+      "coreType": "int64",
+      "systemType": "integer",
+      "fieldName": "lastMod",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    },
+    {
+      "coreType": "int64",
+      "systemType": "integer",
+      "fieldName": "lastComputed",
+      "subfields": null,
+      "isReadOnly": false,
+      "isNullable": true,
+      "isRepeated": false,
+      "isPrimary": false,
+      "isUnique": false
+    }
+  ]
+}
