@@ -11,13 +11,19 @@
     {
       "userFieldName": "secret_key",
       "userFieldType": "Textbox",
-      "description": "api-key provided by amplitude under organization settings -> Projects -> General -> Secret Key",
+      "description": "secret-key provided by amplitude under organization settings -> Projects -> General -> Secret Key",
       "isRequired": true
     },
     {
       "userFieldName": "start_date",
       "userFieldType": "Textbox",
-      "description": "start date YYYY-MM-DDT00:00:00Z provide this format",
+      "description": "start date YYYYMMDD provide this format",
+      "isRequired": true
+    },
+    {
+      "userFieldName": "end_date",
+      "userFieldType": "Textbox",
+      "description": "start date YYYYMMDD provide this format",
       "isRequired": true
     }
   ]

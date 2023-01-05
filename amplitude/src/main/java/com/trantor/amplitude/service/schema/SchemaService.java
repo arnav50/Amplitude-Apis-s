@@ -18,7 +18,7 @@ import java.io.Reader;
 @Slf4j
 public class SchemaService {
     @Value("classpath:/input/amplitudeStreamsSchema.json")
-    Resource zinreloStreamsSchema;
+    Resource amplitudeStreamsSchema;
 
     @Value("classpath:/input/amplitudeSchemaFieldActive_User.json")
     Resource amplitudeSchemaFieldActive_Users_Counts;
@@ -37,7 +37,7 @@ public class SchemaService {
 
 
     public String getObjectsIDAndDesc() {
-        return ResourceUtils.getResourceData(zinreloStreamsSchema);
+        return ResourceUtils.getResourceData(amplitudeStreamsSchema);
     }
 
 

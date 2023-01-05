@@ -1,8 +1,6 @@
 package com.trantor.amplitude.client;
 
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.stereotype.Component;
@@ -19,9 +17,6 @@ public class ExternalHttpClient {
 
     public static final String API_RESPONSE_CODE = "API response code: {}";
     public static final String FINAL_URL = "Final url:  {}";
-
-    //private Logger logger = LoggerFactory.getLogger(ExternalHttpClient.class);
-
     @Autowired
     RestTemplate restTemplate;
 
@@ -55,7 +50,7 @@ public class ExternalHttpClient {
         HttpHeaders restHeaders = new HttpHeaders();
         restHeaders.setContentType(mediaType);
 
-        // Add headers if any from original request
+
         for (Map.Entry<String, String> entry : requestHeaders.entrySet()) {
             restHeaders.add(entry.getKey(), entry.getValue());
         }

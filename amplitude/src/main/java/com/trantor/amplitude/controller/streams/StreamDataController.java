@@ -17,7 +17,6 @@ public class StreamDataController {
     @Autowired
     private StreamDataService streamDataService;
 
-
     @GetMapping("/stream/{streamId}")
     public ResponseEntity<String> getStreamDataByQuery(
             @RequestHeader(value = ApplicationConstants.USER_FIELDS_DATA, required = true) String userFieldsData,
@@ -27,5 +26,8 @@ public class StreamDataController {
         requestHeaders.put(ApplicationConstants.Authorization, userFields);
         return ResponseInterceptor.prepareResponseEntity(streamDataService.getStreamObjectPaylod(requestHeaders, streamId));
     }
+
+
+
 }
 
