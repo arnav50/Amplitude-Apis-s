@@ -20,7 +20,7 @@ public class StreamDataController {
     @GetMapping("/stream/{streamId}")
     public ResponseEntity<String> getStreamDataByQuery(
             @RequestHeader(value = ApplicationConstants.USER_FIELDS_DATA, required = true) String userFieldsData,
-            @PathVariable String streamId) {
+            @PathVariable(value = ApplicationConstants.StreamID, required = true) String streamId) {
         Map<String, String> requestHeaders = new HashMap<>();
         String userFields = BearerTokenRequest.generateBase64AuthToken(userFieldsData);
         requestHeaders.put(ApplicationConstants.Authorization, userFields);

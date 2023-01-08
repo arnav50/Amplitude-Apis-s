@@ -14,10 +14,10 @@ public class UserFieldDto {
     @JsonProperty("secret_key")
     private String secretKey;
 
-    @DateTimeFormat(pattern = "YYYYMMDD")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     @JsonProperty("start_date")
     private String startDate;
-    @DateTimeFormat(pattern = "YYYYMMDD")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     @JsonProperty("end_date")
     private String endDate;
 

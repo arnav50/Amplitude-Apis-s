@@ -42,7 +42,7 @@ public class BearerTokenRequest {
         if (encodedUserFieldsJson != null && !(encodedUserFieldsJson.isEmpty())) {
             decodedUserFieldsJson = decode(encodedUserFieldsJson);
             log.debug("User Fields from request header found: {}", decodedUserFieldsJson);
-            System.out.println("decodedUserFieldsJson : " + decodedUserFieldsJson);
+
 
 
             JSONArray userFieldsArray = new JSONArray(decodedUserFieldsJson);
@@ -59,7 +59,6 @@ public class BearerTokenRequest {
             startDate = userFields.getStartDate().toString();
             endDate = userFields.getEndDate().toString();
         }
-
 
         String authKey = userFields.getApiKey() + ":" + userFields.getSecretKey();
         byte[] encodedByte = Base64.getEncoder().encode(authKey.getBytes());

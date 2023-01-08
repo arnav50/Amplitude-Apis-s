@@ -15,5 +15,6 @@ public class ApplicationConstants {
     public static final String Cohorts = "3/cohorts";
     public static final String USER_FIELD_NAME = "userFieldName";
     public static final String USER_FIELD_VALUE = "userFieldValue";
+    public static final String StreamID = "streamId";
 
 }
